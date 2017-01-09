@@ -1,6 +1,9 @@
 # Vue Hot Loader
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jshmrtn/vue-hot-loader/master/LICENSE)
+[![Build Status](https://travis-ci.org/jshmrtn/vue-hot-loader.svg?branch=master)](https://travis-ci.org/jshmrtn/vue-hot-loader)
+[![NPM Version](https://img.shields.io/npm/v/vue-hot-loader.svg)](https://www.npmjs.com/package/vue-hot-loader)
 
-The Vue Hot Loader adds `webpack` HMR compatibility to your standard JS vue components,
+The Vue Hot Loader adds `webpack` HMR compatibility to your standard JS vue components.
 
 ## Why
 
