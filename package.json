@@ -1,0 +1,43 @@
+{
+  "name": "vue-hot-loader",
+  "version": "0.0.0",
+  "description": "Vue.js js component loader for Webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jshmrtn/vue-hot-loader.git"
+  },
+  "keywords": [
+    "vue",
+    "webpack",
+    "loader",
+    "hmr"
+  ],
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "author": "JOSHMARTIN GmbH",
+  "contributors": [
+    {
+      "name": "Jonatan Männchen",
+      "email": "jonatan@maennchen.ch",
+      "url": "https://commanders.ch"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jshmrtn/vue-hot-loader/issues"
+  },
+  "homepage": "https://github.com/jshmrtn/vue-hot-loader",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
+}
