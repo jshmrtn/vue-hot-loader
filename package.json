@@ -38,6 +38,7 @@
     "eslint": "^2.9.0"
   },
   "dependencies": {
-    "loader-utils": "^0.2.16"
+    "loader-utils": "^0.2.16",
+    "vue-hot-reload-api": "^2.0.7"
   }
 }
