@@ -1,6 +1,6 @@
 {
   "name": "vue-hot-loader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Vue.js js component loader for Webpack",
   "main": "index.js",
   "repository": {
