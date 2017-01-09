@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - 6
+- 6
+deploy:
+  provider: npm
+  email: jonatan@maennchen.ch
+  api_key:
+    secure: lHYOd2DxRgi6HX2C6zpKykDU5dQyyOlwpoyPqq2Ri8vqfqIxGFikXvqMA8IubEquSozgQCtIdCAJGX0Om/FUYLJ2ZWCw4VHdPlN3rWFqJzsZ/UQBwumU5uvk0B1CmjM8kjYB/T0B+CL4a4DBRzvHdQZCHLFCRP5Jgl0GqiGCByzWhZvZR1tXNJLrweA2NxPb+DeFtlEqjr1BeMAHkwpmv6XUuaWXHDDlcyVpdQQXKgWgf9JKfLc6e8Gqd6Hzd05negKJY17WzF2bqpaF/xX+JEI6ilrLIIX50B2IKAZM3KE/pTZEYejxxjmMCTaekeCh6hHt5Yw9YSOqvhSSlAjWYXS6npKvbXhoPml4n1mIisPqWVEWopxb4bPW1idVU1zbNLJIsvSU98pN1jBN6dB975q8v+5zJvRCcy4QU0TNqJAf4t7FM6aebInDp6G0qtg3Pz8uR3LIUjwpB1w/RH7TGC8+7YU7yhqob3OUDa5eqsaCR8Q45QBmacqtAzUGVgBQwSRhe1RmyEAlf2ZCOYA6wx+DR876x3Q0JIrJSk+iwodR0Ein3inHeSYTj+150LhFsZlJk7UukUWGAEc2ttFY5Vz0kOYPgIDMX/huHgR8o3l6MHI2Sbb9fPnk7c/L+YbBP0o8D5HyVdB+yuQSwK+L7PAv5N3288UzmxGpO0ATc5s=
+  on:
+    tags: true
+    repo: jshmrtn/vue-hot-loader
