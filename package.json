@@ -23,6 +23,11 @@
       "name": "Jonatan Männchen",
       "email": "jonatan@maennchen.ch",
       "url": "https://commanders.ch"
+    },
+    {
+      "name": "Jeremy Zahner",
+      "email": "zahner@joshmartin.ch",
+      "url": "https://joshmartin.ch"
     }
   ],
   "license": "MIT",
@@ -35,10 +40,10 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "eslint": "^2.9.0"
+    "eslint": "^3.18.0"
   },
   "dependencies": {
-    "loader-utils": "^0.2.16",
+    "loader-utils": "^1.1.0",
     "vue-hot-reload-api": "^2.0.7"
   }
 }
